@@ -26,7 +26,6 @@ Algunas tablas ya deben tener datos por defecto para poder cruzar información, 
 ```
 
 ## Consultas
-
-## Recursos donde se extrae información
-### Listado de diagnosticos
-- https://www.cbrc.com.ar/circularespdf/Diagnosticos%20mas%20frecuentes.pdf
+- 
+```sql
+```
