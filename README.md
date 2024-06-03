@@ -309,12 +309,12 @@ INSERT INTO sis_arp (arp) VALUES ('ARP Seguros del Servicio Público');
 INSERT INTO sis_arp (arp) VALUES ('ARP Seguros del Servicio Doméstico');
 INSERT INTO sis_arp (arp) VALUES ('ARP Seguros del Servicio Educativo');
 
-INSERT INTO escolaridades (id, nivel_escolaridad) VALUES('Preescolar');
-INSERT INTO escolaridades (id, nivel_escolaridad) VALUES('Educación Básica Primaria');
-INSERT INTO escolaridades (id, nivel_escolaridad) VALUES('Educación Básica Secundaria');
-INSERT INTO escolaridades (id, nivel_escolaridad) VALUES('Educación Media');
-INSERT INTO escolaridades (id, nivel_escolaridad) VALUES('Educación Técnica y Tecnológica');
-INSERT INTO escolaridades (id, nivel_escolaridad) VALUES('Educación Superior');
+INSERT INTO escolaridades (nivel_escolaridad) VALUES('Preescolar');
+INSERT INTO escolaridades (nivel_escolaridad) VALUES('Educación Básica Primaria');
+INSERT INTO escolaridades (nivel_escolaridad) VALUES('Educación Básica Secundaria');
+INSERT INTO escolaridades (nivel_escolaridad) VALUES('Educación Media');
+INSERT INTO escolaridades (nivel_escolaridad) VALUES('Educación Técnica y Tecnológica');
+INSERT INTO escolaridades (nivel_escolaridad) VALUES('Educación Superior');
 
 INSERT INTO ocupaciones (ocupacion) VALUES ('Médico');
 INSERT INTO ocupaciones (ocupacion) VALUES ('Ingeniero');
