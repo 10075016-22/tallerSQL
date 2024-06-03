@@ -32,7 +32,7 @@ CREATE TABLE sis_fondo_pension (
 	fondo_pension varchar(100) NULL
 );
 
-CREATE TABLE sis_arl (
+CREATE TABLE sis_arp (
 	id int NOT NULL IDENTITY PRIMARY KEY,
 	arp varchar(100) NOT NULL
 );
@@ -149,7 +149,7 @@ CREATE TABLE sis_paciente (
 	fondo_pension_id INT,
 	discapacidad VARCHAR(200) NULL,
 	email VARCHAR(120) NULL,
-	arl_id INT,
+	arp_id INT,
 	escolaridad_id INT,
 	FOREIGN KEY (tipo_id) REFERENCES sis_tipo_documentos(id),
 	FOREIGN KEY (tipo_usuario) REFERENCES sis_tipo_usuarios(id),
@@ -160,7 +160,7 @@ CREATE TABLE sis_paciente (
 	FOREIGN KEY (tipo_empleado_id) REFERENCES sis_tipo_empleado(id),
 	FOREIGN KEY (eps_anterior_id) REFERENCES sis_eps(id),
 	FOREIGN KEY (fondo_pension_id) REFERENCES sis_fondo_pension(id),
-	FOREIGN KEY (arl_id) REFERENCES sis_arl(id),    
+	FOREIGN KEY (arp_id) REFERENCES sis_arp(id),    
 	FOREIGN KEY (escolaridad_id) REFERENCES escolaridades(id),
 	FOREIGN KEY (cod_usuario) REFERENCES sis_usuarios(id)
 );
