@@ -19,7 +19,8 @@ USE taller;
 
 Aqui puedes copiar el script para crear la estructura de la base de datos, es decir, todas las tablas con sus respectivas relaciones, una vez ejecutado estas sentencias, el resultado de nuestras tablas será el siguiente 
 
-![](./files/ER.png)
+![ER](https://github.com/10075016-22/tallerSQL/assets/11299320/ae869698-4dee-4270-a268-59bc257002f1)
+
 
 Si!, un poco desordenado, pero es algo :) 
 
