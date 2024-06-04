@@ -15,6 +15,10 @@ USE taller;
 ```
 ## Creación de tablas
 
+Aqui puedes copiar el script para crear la estructura de la base de datos, es decir, todas las tablas con sus respectivas relaciones, una vez ejecutado estas sentencias, el resultado de nuestras tablas será el siguiente 
+
+
+
 ```sql
 
 ```
