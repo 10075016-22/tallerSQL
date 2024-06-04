@@ -1,5 +1,7 @@
 # tallerSQL
 
+[Taller SQL Analisis de Datos.pdf](https://github.com/user-attachments/files/15570961/Taller.SQL.Analisis.de.Datos.pdf)
+
 ## Diagrama ER
 Este es el diagrama que se propone para la realización del ejercicio
 
