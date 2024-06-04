@@ -818,6 +818,18 @@ INSERT INTO sis_tipo_usuarios (tipo_usuario) VALUES ('Paramédico');
 INSERT INTO sis_tipo_usuarios (tipo_usuario) VALUES ('Vigilante');
 INSERT INTO sis_tipo_usuarios (tipo_usuario) VALUES ('Paciente');
 ```
+- Tipos de empleado
+```sql
+INSERT INTO sis_tipo_empleado (tipo_empleado, descripcion) VALUES
+('Empleado', 'Trabajador contratado por una empresa bajo un contrato de trabajo formal'),
+('Empleado Independiente', 'Persona que presta servicios profesionales o realiza actividades económicas por cuenta propia'),
+('Trabajador por Cuenta Propia', 'Similar al empleado independiente, esta persona ejerce una actividad económica sin depender de un empleador específico.'),
+('Empleado Público', 'Trabajador contratado por el gobierno o una entidad pública'),
+('Empleado Temporal', 'Contratado por un período específico para cubrir necesidades temporales de la empresa'),
+('Aprendiz', 'Persona que se encuentra en formación o capacitación laboral dentro de una empresa bajo un contrato de aprendizaje'),
+('Empleado de Servicio Doméstico', 'Trabajador contratado para realizar tareas domésticas en el hogar de un empleador'),
+('Empleado por Horas', 'Trabajador contratado para realizar tareas específicas o por un número determinado de horas');
+```
 
 -  Estado de cita
 ```sql
