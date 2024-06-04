@@ -1208,6 +1208,61 @@ INSERT INTO sis_formatos (codigo, descripcion) VALUES
 ('F024', 'Informe de Terapia Ocupacional'),
 ('F025', 'Informe de Trabajo Social');
 ```
+-  Usuarios
+```sql
+INSERT INTO sis_usuarios (usuario, pass, nombre_completo, ultimo_acceso, estado) VALUES
+('jperez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jperez'), 2 ), 'Juan Pérez', GETDATE(), 1),
+('mmartinez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mmartinez'), 2 ), 'María Martínez', GETDATE(), 1),
+('aestrada', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'aestrada'), 2 ), 'Andrés Estrada', GETDATE(), 1),
+('pluna', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'pluna'), 2 ), 'Pedro Luna', GETDATE(), 1),
+('lsantos', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'lsantos'), 2 ), 'Laura Santos', GETDATE(), 1),
+('fgonzalez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'fgonzalez'), 2 ), 'Fernando González', GETDATE(), 1),
+('dlopez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'dlopez'), 2 ), 'David López', GETDATE(), 1),
+('mgomez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mgomez'), 2 ), 'Marina Gómez', GETDATE(), 1),
+('jrodriguez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jrodriguez'), 2 ), 'Javier Rodríguez', GETDATE(), 1),
+('pperez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'pperez'), 2 ), 'Patricia Pérez', GETDATE(), 1),
+('rcastro', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'rcastro'), 2 ), 'Roberto Castro', GETDATE(), 1),
+('cmartinez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'cmartinez'), 2 ), 'Carolina Martínez', GETDATE(), 1),
+('rlara', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'rlara'), 2 ), 'Raúl Lara', GETDATE(), 1),
+('vramirez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'vramirez'), 2 ), 'Verónica Ramírez', GETDATE(), 1),
+('rgarcia', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'rgarcia'), 2 ), 'Rosa García', GETDATE(), 1),
+('jcastillo', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jcastillo'), 2 ), 'Juan Castillo', GETDATE(), 1),
+('esilva', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'esilva'), 2 ), 'Elena Silva', GETDATE(), 1),
+('darias', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'darias'), 2 ), 'Daniel Arias', GETDATE(), 1),
+('esantana', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'esantana'), 2 ), 'Eva Santana', GETDATE(), 1),
+('jgutierrez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jgutierrez'), 2 ), 'José Gutiérrez', GETDATE(), 1),
+('mmendez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mmendez'), 2 ), 'Mónica Méndez', GETDATE(), 1),
+('jvasquez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jvasquez'), 2 ), 'Julia Vásquez', GETDATE(), 1),
+('asanchez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'asanchez'), 2 ), 'Antonio Sánchez', GETDATE(), 1),
+('nfernandez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'nfernandez'), 2 ), 'Natalia Fernández', GETDATE(), 1),
+('msantos', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'msantos'), 2 ), 'Manuel Santos', GETDATE(), 1),
+('cnavarro', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'cnavarro'), 2 ), 'Carmen Navarro', GETDATE(), 1),
+('lsanchez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'lsanchez'), 2 ), 'Luis Sánchez', GETDATE(), 1),
+('jcabrera', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jcabrera'), 2 ), 'Juana Cabrera', GETDATE(), 1),
+('fdiaz', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'fdiaz'), 2 ), 'Fabián Díaz', GETDATE(), 1),
+('asalazar', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'asalazar'), 2 ), 'Ana Salazar', GETDATE(), 1),
+('mreyes', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mreyes'), 2 ), 'Marcela Reyes', GETDATE(), 1),
+('emartinez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'emartinez'), 2 ), 'Eduardo Martínez', GETDATE(), 1),
+('cromo', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'cromo'), 2 ), 'Cristina Romo', GETDATE(), 1),
+('apalacios', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'apalacios'), 2 ), 'Alejandro Palacios', GETDATE(), 1),
+('lfernandez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'lfernandez'), 2 ), 'Lorena Fernández', GETDATE(), 1),
+('gchavez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'gchavez'), 2 ), 'Gabriel Chávez', GETDATE(), 1),
+('jflores', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jflores'), 2 ), 'Julieta Flores', GETDATE(), 1),
+('cgomez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'cgomez'), 2 ), 'Carlos Gómez', GETDATE(), 1),
+('esteban', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'esteban'), 2 ), 'Estela Benítez', GETDATE(), 1),
+('mvalencia', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mvalencia'), 2 ), 'Miguel Valencia', GETDATE(), 1),
+('rsalinas', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'rsalinas'), 2 ), 'Rocio Salinas', GETDATE(), 1),
+('mperez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mperez'), 2 ), 'Mario Pérez', GETDATE(), 1),
+('vsuarez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'vsuarez'), 2 ), 'Victoria Suárez', GETDATE(), 1),
+('jrivas', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jrivas'), 2 ), 'Juan Rivas', GETDATE(), 1),
+('msilva', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'msilva'), 2 ), 'Mercedes Silva', GETDATE(), 1),
+('rluna', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'rluna'), 2 ), 'Ramón Luna', GETDATE(), 1),
+('evelasquez', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'evelasquez'), 2 ), 'Eduarda Velásquez', GETDATE(), 1),
+('osantana', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'osantana'), 2 ), 'Óscar Santana', GETDATE(), 1),
+('mmolina', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'mmolina'), 2 ), 'Martha Molina', GETDATE(), 1),
+('jmejia', CONVERT( VARCHAR(32), HASHBYTES('MD5', 'jmejia'), 2 ), 'José Mejía', GETDATE(), 1);
+```
+
 -  Médicos
 ```sql
 INSERT INTO sis_medico ( cedula, nombre, especialidad_id, registro, tipo_id, tiempo, cod_usuario, es_medico, es_anes, es_ayu, pago_prod, valoresperado, es_pediatra, servicio_id, abre_historia, cierra_historia, es_auditor, es_especialista, estado, tercero, ApartaCita, direccion, telefono, citaExterna, leyendaConfirmarMedico, RequiereAuditoria, NivelMctos, CodHistoriaPredeterminada, EsMedicoFamiliar, EsOdontologo, EsPyp ) VALUES
